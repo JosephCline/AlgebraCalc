@@ -1,0 +1,13 @@
+Mathproblem = list(input("Please enter your problem"))
+print(Mathproblem)
+
+if Operator == "+":
+    Solve1 = Mathproblem[3] - Mathproblem[6]
+elif Operator == "-":
+    Solve2 = Mathproblem[3] + Mathproblem[6]
+
+Final1 = Mathproblem[5] + Solve1
+Final2 = Mathproblem[5] + Solve2
+
+Final3 = Final1 / Mathproblem[0]
+Final4 = Final2 / Mathproblem[0]
